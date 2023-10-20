@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Interfaces.DatosCompra;
+using Core.Interfaces.DatosInventario;
 using Core.Interfaces.DatosVenta;
 
 namespace Core.Interfaces.Ropa;
@@ -19,5 +21,8 @@ public class Prenda : BaseEntity
     public int IdGeneroFk { get; set; }
     public Genero Genero { get; set; }
     public ICollection<DetalleOrden> DetalleOrdenes { get; set; }
+    public ICollection<Inventario> Inventarios { get; set; }
+    public ICollection<InsumoPrenda> InsumoPrendas { get; set; }
+
 
 }

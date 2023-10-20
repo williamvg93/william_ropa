@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Interfaces.DatosInventario;
 using Core.Interfaces.Persona;
 
 namespace Core.Interfaces.DatosVenta;
@@ -15,4 +16,5 @@ public class Venta : BaseEntity
     public Cliente Cliente { get; set; }
     public int IdFormaPagoFk { get; set; }
     public FormaPago FormaPago { get; set; }
+    public ICollection<DetalleVenta> DetalleVentas { get; set; }
 }
