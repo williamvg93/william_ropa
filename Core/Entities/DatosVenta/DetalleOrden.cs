@@ -15,7 +15,7 @@ public class DetalleOrden : BaseEntity
     public int IdPrendaFk { get; set; }
     public Prenda Prenda { get; set; }
     public int IdColorFk { get; set; }
-    public Color Color { get; set; }
+    public Colores Colores { get; set; }
     public int IdEstadoFk { get; set; }
     public Estado Estado { get; set; }
 }
