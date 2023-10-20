@@ -14,4 +14,5 @@ public class Inventario : BaseEntity
     public int IdPrendaFk { get; set; }
     public Prenda Prenda { get; set; }
     public ICollection<DetalleVenta> DetalleVentas { get; set; }
+    public ICollection<InventarioTalla> InventarioTallas { get; set; }
 }
