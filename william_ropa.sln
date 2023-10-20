@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRopa", "ApiRopa\ApiRopa.csproj", "{4092D337-1694-41EA-BBDB-60D7D5CAB65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{396ED7B2-C4C4-4759-9A77-CC7CF2F2187F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2F10844F-B86C-42AA-B7D6-F4926E54A1FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4092D337-1694-41EA-BBDB-60D7D5CAB65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4092D337-1694-41EA-BBDB-60D7D5CAB65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4092D337-1694-41EA-BBDB-60D7D5CAB65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4092D337-1694-41EA-BBDB-60D7D5CAB65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396ED7B2-C4C4-4759-9A77-CC7CF2F2187F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396ED7B2-C4C4-4759-9A77-CC7CF2F2187F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396ED7B2-C4C4-4759-9A77-CC7CF2F2187F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396ED7B2-C4C4-4759-9A77-CC7CF2F2187F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F10844F-B86C-42AA-B7D6-F4926E54A1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F10844F-B86C-42AA-B7D6-F4926E54A1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F10844F-B86C-42AA-B7D6-F4926E54A1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F10844F-B86C-42AA-B7D6-F4926E54A1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
