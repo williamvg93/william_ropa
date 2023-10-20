@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces.DatosCompra;
+namespace Core.Entities.DatosCompra;
 
 public class Insumo : BaseEntity
 {

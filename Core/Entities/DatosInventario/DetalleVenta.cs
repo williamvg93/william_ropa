@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.DatosVenta;
+using Core.Entities.DatosVenta;
 
-namespace Core.Interfaces.DatosInventario;
+namespace Core.Entities.DatosInventario;
 
 public class DetalleVenta : BaseEntity
 {

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.Location;
+using Core.Entities.Location;
 
-namespace Core.Interfaces.DatosEmpresa;
+namespace Core.Entities.DatosEmpresa;
 
 public class Empresa : BaseEntity
 {

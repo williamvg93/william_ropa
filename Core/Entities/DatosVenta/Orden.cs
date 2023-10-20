@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.Persona;
-using Core.Interfaces.Ropa;
+using Core.Entities.Persona;
+using Core.Entities.Ropa;
 
-namespace Core.Interfaces.DatosVenta;
+namespace Core.Entities.DatosVenta;
 
 public class Orden : BaseEntity
 {

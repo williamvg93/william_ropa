@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.DatosInventario;
-using Core.Interfaces.Persona;
+using Core.Entities.DatosInventario;
+using Core.Entities.Persona;
 
-namespace Core.Interfaces.DatosVenta;
+namespace Core.Entities.DatosVenta;
 
 public class Venta : BaseEntity
 {

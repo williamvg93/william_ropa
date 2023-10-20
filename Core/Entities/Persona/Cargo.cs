@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces.Persona;
+namespace Core.Entities.Persona;
 
 public class Cargo : BaseEntity
 {

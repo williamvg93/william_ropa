@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.DatosCompra;
-using Core.Interfaces.Location;
+using Core.Entities.DatosCompra;
+using Core.Entities.Location;
 
-namespace Core.Interfaces.Persona;
+namespace Core.Entities.Persona;
 
 public class Proveedor : BaseEntity
 {

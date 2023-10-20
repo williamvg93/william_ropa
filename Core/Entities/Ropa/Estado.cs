@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.DatosVenta;
+using Core.Entities.DatosVenta;
 
-namespace Core.Interfaces.Ropa;
+namespace Core.Entities.Ropa;
 
 public class Estado : BaseEntity
 {

@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.DatosCompra;
-using Core.Interfaces.DatosInventario;
-using Core.Interfaces.DatosVenta;
+using Core.Entities.DatosCompra;
+using Core.Entities.DatosInventario;
+using Core.Entities.DatosVenta;
 
-namespace Core.Interfaces.Ropa;
+namespace Core.Entities.Ropa;
 
 public class Prenda : BaseEntity
 {

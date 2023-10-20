@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.Ropa;
+using Core.Entities.Ropa;
 
-namespace Core.Interfaces.DatosInventario;
+namespace Core.Entities.DatosInventario;
 
 public class Inventario : BaseEntity
 {

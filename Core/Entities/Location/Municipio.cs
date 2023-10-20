@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.DatosEmpresa;
-using Core.Interfaces.Persona;
+using Core.Entities.DatosEmpresa;
+using Core.Entities.Persona;
 
-namespace Core.Interfaces.Location;
+namespace Core.Entities.Location;
 
 public class Municipio : BaseEntity
 {

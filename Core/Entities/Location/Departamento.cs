@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces.Location;
+namespace Core.Entities.Location;
 
 public class Departamento : BaseEntity
 {

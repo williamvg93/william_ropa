@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces.Ropa;
+namespace Core.Entities.Ropa;
 
 public class TipoEstado : BaseEntity
 {

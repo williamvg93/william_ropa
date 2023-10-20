@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces.DatosInventario;
+namespace Core.Entities.DatosInventario;
 
 public class Talla : BaseEntity
 {

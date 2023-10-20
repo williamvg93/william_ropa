@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.Persona;
+using Core.Entities.Persona;
 
-namespace Core.Interfaces.DatosCompra;
+namespace Core.Entities.DatosCompra;
 
 public class InsumoProveedor : BaseEntity
 {

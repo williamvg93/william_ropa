@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Interfaces.Ropa;
+using Core.Entities.Ropa;
 
-namespace Core.Interfaces.DatosCompra;
+namespace Core.Entities.DatosCompra;
 
 public class InsumoPrenda : BaseEntity
 {

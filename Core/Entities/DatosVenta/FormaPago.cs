@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Interfaces.DatosVenta;
+namespace Core.Entities.DatosVenta;
 
 public class FormaPago : BaseEntity
 {
